@@ -34,7 +34,7 @@ setInterval(function() {
     }
   });
 
-}, 2000);
+}, 500);
 
 session.trap (snmp.TrapType.LinkDown, function (error) {
     if (error)
